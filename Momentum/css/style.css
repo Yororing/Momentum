@@ -1,0 +1,67 @@
+.hidden{
+    display: none;
+}
+.login-form{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+.li{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+#clock{
+    font-size: 45px;
+    background: linear-gradient(to right top, whitesmoke,black);
+    color: transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+}
+#weather{
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 81%;
+}
+#quote{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+#todo-form{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#greeting{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+#weather,
+#greeting,
+#quote{
+    color: white;
+    text-shadow:1px 1px 1px #000;
+}
